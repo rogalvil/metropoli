@@ -1,8 +1,9 @@
 # encoding: UTF-8
 
 require 'rake'
-require 'rake/testtask'
+require 'rdoc'
 require 'rdoc/task'
+require 'rake/testtask'
 
 desc 'Run Metropoli unit tests.'
 Rake::TestTask.new(:test) do |test|
@@ -36,7 +37,6 @@ begin
     gem.add_dependency("json", "~> 1.4.6")
     gem.add_development_dependency 'jeweler'
     gem.add_development_dependency 'shoulda'
-    gem.add_development_dependency 'bundler' , '~> 1.0.0'
     gem.add_development_dependency 'rails', '~> 3.0.0'
     gem.add_development_dependency 'sqlite3-ruby'
     gem.add_development_dependency 'factory_girl', '~> 1.3.3'

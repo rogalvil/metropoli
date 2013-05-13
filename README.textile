@@ -104,7 +104,7 @@ h2. Extend its behaviour
 
 *To install the gem*
 
-bc. gem install bundler --version '~> 1.0.0'
+bc. gem install bundler
 
 bc. bundle install
 
