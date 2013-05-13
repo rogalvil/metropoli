@@ -2,7 +2,7 @@ module Metropoli
   class CountryModel < ActiveRecord::Base
     extend StatementHelper
     extend ConfigurationHelper
-    set_table_name  :countries
+    self.table_name = :countries
     
     has_many        :states, :class_name => Metropoli.state_class, :foreign_key => :country_id
     
