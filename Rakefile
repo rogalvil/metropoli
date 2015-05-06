@@ -42,7 +42,7 @@ begin
     gem.add_development_dependency 'factory_girl', '~> 1.3.3'
     gem.add_development_dependency 'debugger'
     gem.add_development_dependency 'turn'
-    gem.add_development_dependency "minitest", '~> 4.0'
+    #gem.add_development_dependency "minitest", '~> 4.0'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
