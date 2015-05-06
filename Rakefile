@@ -34,7 +34,7 @@ begin
     gem.homepage = "http://github.com/adriancuadros/metropoli"
     gem.authors = ["Adrian Cuadros"]
     gem.add_dependency('sinatra', '>=1.0')
-    gem.add_dependency "json"
+    #gem.add_dependency "json"
     gem.add_development_dependency 'jeweler'
     gem.add_development_dependency 'shoulda'
     gem.add_development_dependency 'rails', '~> 3.0.0'
